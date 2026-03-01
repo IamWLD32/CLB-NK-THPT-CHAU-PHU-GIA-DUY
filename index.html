@@ -1,0 +1,258 @@
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>CLB Ngoại Khóa Trường THPT Châu Phú</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Times New Roman", Times, serif;
+}
+
+body{
+    background:#f0f0f0;
+}
+
+/* ===== BANNER ===== */
+.banner{
+    position:relative;
+    width:100%;
+    height:450px;
+    background:url("https://scontent.fsgn5-9.fna.fbcdn.net/v/t39.30808-6/629083182_1765541804766167_522749555930067555_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeHuPqN3ED_OuMsGoybAT_9DsseOHhyW3Xqyx44eHJbdenku2rVd4Do4tqWDMkmrDKBFPKYva1U1bt47pyTfhNaA&_nc_ohc=uQ82HMCEHs0Q7kNvwFvBJhn&_nc_oc=AdmipKgt_AeMHR7YpKyVTdYyLmVJA2PlbsNVK-1goIRZWea0ZB5tu9HXrKadaa3jdRU&_nc_zt=23&_nc_ht=scontent.fsgn5-9.fna&_nc_gid=3O-xuKWcW4rHPJXFv-Ib9w&_nc_ss=8&oh=00_Afsaw9qmWpQx9eTwKWM0DoBseqBrfWHeRfjR5NHRvIFehA&oe=69A9F856") no-repeat center center/cover;
+}
+
+.banner-text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background:rgba(0,0,0,0.5);
+    color:white;
+    padding:10px 25px;
+    font-size:18px;
+    font-weight:bold;
+    border-radius:6px;
+    white-space:nowrap;
+    text-align:center;
+}
+
+/* ===== GIỚI THIỆU ===== */
+.intro-bar{
+    background:#7fc6ad;
+    display:flex;
+    justify-content:space-around;
+    text-align:center;
+    padding:20px 0;
+}
+
+.intro-box h3{
+    font-size:20px;
+    margin-bottom:5px;
+}
+
+.intro-box p{
+    font-size:16px;
+}
+
+/* ===== CARD ===== */
+.container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:50px 0;
+}
+
+.card{
+    background:white;
+    width:300px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+    text-align:center;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 8px 18px rgba(0,0,0,0.15);
+}
+
+.card h3{
+    color:#2aa36b;
+    margin-bottom:15px;
+    border-bottom:2px solid #2aa36b;
+    padding-bottom:5px;
+    font-size:20px;
+}
+
+.card ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.card li{
+    font-size:16px;
+    margin-bottom:6px;
+}
+
+.card li::before{
+    content:"• ";
+}
+
+/* ===== HÌNH ẢNH ===== */
+.card img{
+    width:100%;
+    height:160px;
+    object-fit:cover;
+    border-radius:6px;
+    margin-top:10px;
+}
+
+/* ===== LINK CHI TIẾT ===== */
+.card a{
+    display:inline-block;
+    margin-top:10px;
+    color:purple;
+    text-decoration:none;
+    font-size:16px;
+}
+
+.card a:hover{
+    text-decoration:underline;
+}
+
+/* ===== FOOTER ===== */
+.footer{
+    background:#7fc6ad;
+    padding:30px 60px;
+    display:flex;
+    justify-content:space-between;
+    font-size:16px;
+}
+
+.footer ul{
+    list-style:none;
+    padding:0;
+    margin-top:10px;
+}
+
+.footer li{
+    margin-bottom:6px;
+}
+
+.footer li::before{
+    content:"• ";
+}
+
+.footer a{
+    display:block;
+    margin-top:5px;
+    color:blue;
+    text-decoration:none;
+}
+
+.footer a:hover{
+    text-decoration:underline;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- ===== BANNER ===== -->
+<div class="banner">
+    <div class="banner-text">
+        Câu lạc bộ ngoại khóa Trường THPT Châu Phú
+    </div>
+</div>
+
+<!-- ===== GIỚI THIỆU ===== -->
+<div class="intro-bar">
+    <div class="intro-box">
+        <h3>Năng động</h3>
+        <p>Hoạt động năng nổ và hiệu quả</p>
+    </div>
+
+    <div class="intro-box">
+        <h3>Đam mê</h3>
+        <p>Cháy hết mình trong các cuộc thi</p>
+    </div>
+
+    <div class="intro-box">
+        <h3>Tỏa sáng</h3>
+        <p>Giành những giải thưởng cao nhất</p>
+    </div>
+</div>
+
+<!-- ===== CÁC CLB ===== -->
+<div class="container">
+
+    <div class="card">
+        <h3>CLB Thể thao</h3>
+        <ul>
+            <li>Bóng đá</li>
+            <li>Bóng chuyền</li>
+            <li>Bơi lội</li>
+            <li>Cầu lông</li>
+            <li>Võ thuật</li>
+        </ul>
+        <a href="#">Chi tiết</a>
+        <img src="https://vnshort.com/K0P1" alt="">
+    </div>
+
+   <div class="card">
+    <h3>Học siêu - Chơi đỉnh</h3>
+
+    <p class="achievement-title">Các thành tích đạt được:</p>
+
+    <ul>
+        <li>03 HCV Bơi lội</li>
+        <li>02 HCV, 06 HCB, 05 HCĐ Võ thuật</li>
+        <li>01 giải Ba môn Bóng đá nam</li>
+        <li>01 giải Nhì Hội thi biểu diễn âm nhạc</li>
+    </ul>
+
+        <img src="https://vnshort.com/qAWa" alt="">
+    </div>
+
+    <div class="card">
+        <h3>CLB Nghệ thuật</h3>
+        <ul>
+            <li>Mỹ thuật</li>
+            <li>Nhiếp ảnh</li>
+            <li>Âm nhạc</li>
+            <li>Khiêu vũ</li>
+        </ul>
+        <a href="#">Chi tiết</a>
+        <img src="https://vnshort.com/s3oj" alt="">
+    </div>
+
+</div>
+
+<!-- ===== FOOTER ===== -->
+<div class="footer">
+
+    <div>
+        <p><strong>Liên hệ:</strong></p>
+        <ul>
+            <li>Điện thoại: 086 999 3754 </li>
+            <li>Website: CLB Ngoại khóa Trường THPT Châu Phú</li>
+            <li>Tham gia CLB: Đăng ký trực tiếp tại văn phòng Đoàn trường</li>
+            <li><strong>Thông tin:</strong> Nguyễn Hoàng Gia Duy - STT 03</li>
+        </ul>
+    </div>
+
+    <div>
+        <p><strong>Xem chi tiết:</strong></p>
+        <a href="#">Trang web CLB Thể thao</a>
+        <a href="#">Trang web CLB Nghệ thuật</a>
+    </div>
+
+</div>
+
+</body>
+</html>
